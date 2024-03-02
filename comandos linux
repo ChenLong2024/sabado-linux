@@ -1,0 +1,56 @@
+bloc de notas
+#leafpad
+usuario
+passwd
+
+Mac:
+#ifconfig
+ether a0:1d:48:af:b5:ca
+
+midificar mac
+#sudo ifconfig eth0 down
+esperar confirmacion desconectado
+#sudo ifconfig eth0 hw ether 22:1b:82:ad:a6:cb
+dar de alta la nueva mac y conectar
+#sudo ifconfig eth0 up
+
+instalar
+#sudo apt-get install nombre
+#sudo apt install nombre
+
+desinstalar
+#sudo apt-get purge nombre
+#sudo apt autoremove nombre
+
+modo root
+#sudo su
+
+salir modo root
+#exit
+
+apt-get install synaptic
+
+mas comandos en el proximo archivo
+
+
+modo monitor
+#airmon-ng start wlan0
+
+
+salir modo monitor
+#airmon-ng stop wlan0mon
+
+bajar adaptador wifi
+#ifconfig wlan0 down
+
+subir adaptador wifi
+#ifconfig wlan0 up
+
+activar modo monitor
+#iwconfig wlan0 mode monitor
+
+
+xxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxx
+
